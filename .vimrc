@@ -9,16 +9,16 @@ set hlsearch   " Enable highlight search
 " Set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 " Download plug-ins to the ~/.vim/plugged/ directory
-call vundle#begin('~/.vim/plugged')
+call plug#begin('~/.vim/plugged')
 " Let Vundle manage Vundle
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'sheerun/vim-polyglot'
-Plugin 'morhetz/gruvbox'
-Plugin 'junegunn/fzf.vim'
-Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'preservim/tagbar'
-call vundle#end()
+Plug 'VundleVim/Vundle.vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'morhetz/gruvbox'
+Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'jiangmiao/auto-pairs'
+Plug 'preservim/tagbar'
+call plug#end()
 
 set background=dark 
 colorscheme gruvbox
