@@ -1,3 +1,4 @@
 0000000000000000000000000000000000000000 1b43434c41b631b636bc5d3ab461abb17ee79c60 chndr1 <chndr1@annemb-rd-lt> 1677611627 -0600	clone: from https://github.com/chndr1/dotfiles
 1b43434c41b631b636bc5d3ab461abb17ee79c60 1b43434c41b631b636bc5d3ab461abb17ee79c60 chndr1 <chndr1@annemb-rd-lt> 1677611773 -0600	checkout: moving from master to master
 1b43434c41b631b636bc5d3ab461abb17ee79c60 1a4732334e54df17235dae108fec7528443c4910 bhargav <bhargav.annem@gmail.com> 1677611818 -0600	commit: use vim-plug
+1a4732334e54df17235dae108fec7528443c4910 62b11e272ab83d927db732ed73fd1fde182ca3fb bhargav <bhargav.annem@gmail.com> 1677612157 -0600	commit: remove vundle
