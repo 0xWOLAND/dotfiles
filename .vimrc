@@ -6,12 +6,8 @@ set shiftwidth=4
 set expandtab
 set incsearch  " Enable incremental search
 set hlsearch   " Enable highlight search
-" Set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
 " Download plug-ins to the ~/.vim/plugged/ directory
 call plug#begin('~/.vim/plugged')
-" Let Vundle manage Vundle
-Plug 'VundleVim/Vundle.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf.vim'
@@ -41,3 +37,10 @@ nnoremap <silent> <Leader>h: :History:<CR>
 nnoremap <silent> <Leader>h/ :History/<CR>
 
 filetype plugin indent on
+
+highlight Cursor guifg=white guibg=black
+highlight iCursor guifg=white guibg=steelblue
+set guicursor=n-v-c:block-Cursor
+set guicursor+=i:ver100-iCursor
+set guicursor+=n-v-c:blinkon0
+set guicursor+=i:blinkwait10
