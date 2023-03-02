@@ -12,7 +12,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/tagbar'
 call plug#end()
 

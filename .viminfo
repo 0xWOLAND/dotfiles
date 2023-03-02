@@ -11,13 +11,15 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/Vundle
+~MSle0~/pair
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1677612146,,"q"
+|2,0,1677783367,,"q"
 :w
-|2,0,1677612118,,"w"
+|2,0,1677783366,,"w"
+:wq
+|2,0,1677783349,,"wq"
 :12
 |2,0,1677612095,,"12"
 :source %
@@ -30,6 +32,8 @@
 |2,0,1677611466,,"q!"
 
 # Search String History (newest to oldest):
+?/pair
+|2,1,1677783363,47,"pair"
 ?/Vundle
 |2,1,1677612112,47,"Vundle"
 
@@ -41,55 +45,90 @@
 
 # Registers:
 ""1	LINE	0
+	Plug 'jiangmiao/auto-pairs'
+|3,1,1,1,1,0,1677783356,"Plug 'jiangmiao/auto-pairs'"
+"2	LINE	0
 	" Let Vundle manage Vundle
 	Plug 'VundleVim/Vundle.vim'
-|3,1,1,1,2,0,1677612117,"\" Let Vundle manage Vundle","Plug 'VundleVim/Vundle.vim'"
-"2	LINE	0
+|3,0,2,1,2,0,1677612117,"\" Let Vundle manage Vundle","Plug 'VundleVim/Vundle.vim'"
+"3	LINE	0
 	" Set the runtime path to include Vundle and initialize
 	set rtp+=~/.vim/bundle/Vundle.vim
-|3,0,2,1,2,0,1677612114,"\" Set the runtime path to include Vundle and initialize","set rtp+=~/.vim/bundle/Vundle.vim"
-"3	LINE	0
+|3,0,3,1,2,0,1677612114,"\" Set the runtime path to include Vundle and initialize","set rtp+=~/.vim/bundle/Vundle.vim"
+"4	LINE	0
 	highlight iCursor guifg=white guibg=steelblue
 	set guicursor=n-v-c:block-Cursor
 	set guicursor+=i:ver100-iCursor
 	set guicursor+=n-v-c:blinkon0
 	set guicursor+=i:blinkwait10
-|3,0,3,1,5,0,1677612075,"highlight iCursor guifg=white guibg=steelblue","set guicursor=n-v-c:block-Cursor","set guicursor+=i:ver100-iCursor","set guicursor+=n-v-c:blinkon0","set guicursor+=i:blinkwait10"
+|3,0,4,1,5,0,1677612075,"highlight iCursor guifg=white guibg=steelblue","set guicursor=n-v-c:block-Cursor","set guicursor+=i:ver100-iCursor","set guicursor+=n-v-c:blinkon0","set guicursor+=i:blinkwait10"
 "-	CHAR	0
-	vundle
-|3,0,36,0,1,0,1677611735,"vundle"
+	)
+|3,0,36,0,1,0,1677783340,")"
 
 # global variables:
 
 # File marks:
-'0  1  0  ~/.vimrc
-|4,48,1,0,1677612146,"~/.vimrc"
-'1  44  1  ~/.vimrc
-|4,49,44,1,1677612143,"~/.vimrc"
-'2  44  1  ~/.vimrc
-|4,50,44,1,1677612143,"~/.vimrc"
-'3  11  0  ~/.vimrc
-|4,51,11,0,1677612119,"~/.vimrc"
-'4  11  0  ~/.vimrc
-|4,52,11,0,1677612119,"~/.vimrc"
-'5  11  0  ~/.vimrc
-|4,53,11,0,1677612119,"~/.vimrc"
-'6  11  0  ~/.vimrc
-|4,54,11,0,1677612119,"~/.vimrc"
-'7  10  0  ~/.vimrc
-|4,55,10,0,1677612104,"~/.vimrc"
-'8  12  0  ~/.vimrc
-|4,56,12,0,1677612104,"~/.vimrc"
-'9  10  0  ~/.vimrc
-|4,57,10,0,1677612104,"~/.vimrc"
+'0  45  27  ~/.vimrc
+|4,48,45,27,1677783367,"~/.vimrc"
+'1  8  12  ~/pharma_data_extract/main.py
+|4,49,8,12,1677783349,"~/pharma_data_extract/main.py"
+'2  1  0  ~/.vimrc
+|4,50,1,0,1677612146,"~/.vimrc"
+'3  1  0  ~/.vimrc
+|4,51,1,0,1677612146,"~/.vimrc"
+'4  43  1  ~/.vimrc
+|4,52,43,1,1677612143,"~/.vimrc"
+'5  43  1  ~/.vimrc
+|4,53,43,1,1677612143,"~/.vimrc"
+'6  44  1  ~/.vimrc
+|4,54,44,1,1677612143,"~/.vimrc"
+'7  44  1  ~/.vimrc
+|4,55,44,1,1677612143,"~/.vimrc"
+'8  11  0  ~/.vimrc
+|4,56,11,0,1677612119,"~/.vimrc"
+'9  11  0  ~/.vimrc
+|4,57,11,0,1677612119,"~/.vimrc"
 
 # Jumplist (newest first):
+-'  45  27  ~/.vimrc
+|4,39,45,27,1677783367,"~/.vimrc"
+-'  39  0  ~/.vimrc
+|4,39,39,0,1677783364,"~/.vimrc"
+-'  37  0  ~/.vimrc
+|4,39,37,0,1677783364,"~/.vimrc"
+-'  20  0  ~/.vimrc
+|4,39,20,0,1677783364,"~/.vimrc"
+-'  17  0  ~/.vimrc
+|4,39,17,0,1677783364,"~/.vimrc"
+-'  15  0  ~/.vimrc
+|4,39,15,0,1677783364,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1677783353,"~/.vimrc"
+-'  8  12  ~/pharma_data_extract/main.py
+|4,39,8,12,1677783349,"~/pharma_data_extract/main.py"
+-'  8  12  ~/pharma_data_extract/main.py
+|4,39,8,12,1677783349,"~/pharma_data_extract/main.py"
+-'  1  0  ~/pharma_data_extract/main.py
+|4,39,1,0,1677783316,"~/pharma_data_extract/main.py"
+-'  1  0  ~/pharma_data_extract/main.py
+|4,39,1,0,1677783316,"~/pharma_data_extract/main.py"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1677612146,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1677612146,"~/.vimrc"
+-'  43  1  ~/.vimrc
+|4,39,43,1,1677612143,"~/.vimrc"
 -'  44  1  ~/.vimrc
 |4,39,44,1,1677612143,"~/.vimrc"
 -'  44  1  ~/.vimrc
 |4,39,44,1,1677612143,"~/.vimrc"
+-'  44  1  ~/.vimrc
+|4,39,44,1,1677612143,"~/.vimrc"
+-'  44  1  ~/.vimrc
+|4,39,44,1,1677612143,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1677612141,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1677612141,"~/.vimrc"
 -'  11  0  ~/.vimrc
@@ -98,6 +137,16 @@
 |4,39,11,0,1677612119,"~/.vimrc"
 -'  11  0  ~/.vimrc
 |4,39,11,0,1677612119,"~/.vimrc"
+-'  11  0  ~/.vimrc
+|4,39,11,0,1677612119,"~/.vimrc"
+-'  11  0  ~/.vimrc
+|4,39,11,0,1677612119,"~/.vimrc"
+-'  11  0  ~/.vimrc
+|4,39,11,0,1677612119,"~/.vimrc"
+-'  11  0  ~/.vimrc
+|4,39,11,0,1677612119,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1677612112,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1677612112,"~/.vimrc"
 -'  10  0  ~/.vimrc
@@ -112,8 +161,30 @@
 |4,39,10,0,1677612104,"~/.vimrc"
 -'  12  0  ~/.vimrc
 |4,39,12,0,1677612104,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1677612104,"~/.vimrc"
+-'  12  0  ~/.vimrc
+|4,39,12,0,1677612104,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1677612104,"~/.vimrc"
+-'  12  0  ~/.vimrc
+|4,39,12,0,1677612104,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1677612104,"~/.vimrc"
+-'  12  0  ~/.vimrc
+|4,39,12,0,1677612104,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1677612104,"~/.vimrc"
+-'  12  0  ~/.vimrc
+|4,39,12,0,1677612104,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1677612094,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1677612094,"~/.vimrc"
+-'  40  0  ~/.vimrc
+|4,39,40,0,1677612079,"~/.vimrc"
+-'  44  0  ~/.vimrc
+|4,39,44,0,1677612079,"~/.vimrc"
 -'  41  0  ~/.vimrc
 |4,39,41,0,1677612079,"~/.vimrc"
 -'  45  0  ~/.vimrc
@@ -128,6 +199,38 @@
 |4,39,45,0,1677612079,"~/.vimrc"
 -'  45  0  ~/.vimrc
 |4,39,45,0,1677612079,"~/.vimrc"
+-'  41  0  ~/.vimrc
+|4,39,41,0,1677612079,"~/.vimrc"
+-'  45  0  ~/.vimrc
+|4,39,45,0,1677612079,"~/.vimrc"
+-'  41  0  ~/.vimrc
+|4,39,41,0,1677612079,"~/.vimrc"
+-'  45  0  ~/.vimrc
+|4,39,45,0,1677612079,"~/.vimrc"
+-'  41  0  ~/.vimrc
+|4,39,41,0,1677612079,"~/.vimrc"
+-'  45  0  ~/.vimrc
+|4,39,45,0,1677612079,"~/.vimrc"
+-'  45  0  ~/.vimrc
+|4,39,45,0,1677612079,"~/.vimrc"
+-'  46  0  ~/.vimrc
+|4,39,46,0,1677612073,"~/.vimrc"
+-'  50  0  ~/.vimrc
+|4,39,50,0,1677612073,"~/.vimrc"
+-'  47  0  ~/.vimrc
+|4,39,47,0,1677612073,"~/.vimrc"
+-'  51  0  ~/.vimrc
+|4,39,51,0,1677612073,"~/.vimrc"
+-'  47  0  ~/.vimrc
+|4,39,47,0,1677612073,"~/.vimrc"
+-'  51  0  ~/.vimrc
+|4,39,51,0,1677612073,"~/.vimrc"
+-'  47  0  ~/.vimrc
+|4,39,47,0,1677612073,"~/.vimrc"
+-'  51  0  ~/.vimrc
+|4,39,51,0,1677612073,"~/.vimrc"
+-'  51  0  ~/.vimrc
+|4,39,51,0,1677612073,"~/.vimrc"
 -'  47  0  ~/.vimrc
 |4,39,47,0,1677612073,"~/.vimrc"
 -'  51  0  ~/.vimrc
@@ -152,6 +255,20 @@
 |4,39,3,0,1677612036,"~/.vimrc"
 -'  3  0  ~/.vimrc
 |4,39,3,0,1677612036,"~/.vimrc"
+-'  3  0  ~/.vimrc
+|4,39,3,0,1677612036,"~/.vimrc"
+-'  3  0  ~/.vimrc
+|4,39,3,0,1677612036,"~/.vimrc"
+-'  3  0  ~/.vimrc
+|4,39,3,0,1677612036,"~/.vimrc"
+-'  3  0  ~/.vimrc
+|4,39,3,0,1677612036,"~/.vimrc"
+-'  3  0  ~/.vimrc
+|4,39,3,0,1677612036,"~/.vimrc"
+-'  3  0  ~/.vimrc
+|4,39,3,0,1677612036,"~/.vimrc"
+-'  49  27  ~/.vimrc
+|4,39,49,27,1677612033,"~/.vimrc"
 -'  46  27  ~/.vimrc
 |4,39,46,27,1677612033,"~/.vimrc"
 -'  50  27  ~/.vimrc
@@ -168,141 +285,39 @@
 |4,39,1,0,1677612033,"~/.vimrc"
 -'  50  27  ~/.vimrc
 |4,39,50,27,1677612033,"~/.vimrc"
--'  9  0  ~/.vimrc
-|4,39,9,0,1677612025,"~/.vimrc"
--'  9  0  ~/.vimrc
-|4,39,9,0,1677612025,"~/.vimrc"
--'  9  0  ~/.vimrc
-|4,39,9,0,1677612025,"~/.vimrc"
--'  10  0  ~/.vimrc
-|4,39,10,0,1677612025,"~/.vimrc"
--'  10  0  ~/.vimrc
-|4,39,10,0,1677612025,"~/.vimrc"
--'  10  0  ~/.vimrc
-|4,39,10,0,1677612025,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1677611999,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1677611998,"~/.vimrc"
--'  17  8  ~/.vimrc
-|4,39,17,8,1677611738,"~/.vimrc"
--'  21  8  ~/.vimrc
-|4,39,21,8,1677611738,"~/.vimrc"
--'  17  8  ~/.vimrc
-|4,39,17,8,1677611738,"~/.vimrc"
--'  21  8  ~/.vimrc
-|4,39,21,8,1677611738,"~/.vimrc"
--'  17  8  ~/.vimrc
-|4,39,17,8,1677611738,"~/.vimrc"
--'  21  8  ~/.vimrc
-|4,39,21,8,1677611738,"~/.vimrc"
--'  21  8  ~/.vimrc
-|4,39,21,8,1677611738,"~/.vimrc"
--'  21  8  ~/.vimrc
-|4,39,21,8,1677611738,"~/.vimrc"
--'  21  8  ~/.vimrc
-|4,39,21,8,1677611738,"~/.vimrc"
--'  21  8  ~/.vimrc
-|4,39,21,8,1677611738,"~/.vimrc"
--'  14  32  ~/.vimrc
-|4,39,14,32,1677611727,"~/.vimrc"
--'  14  32  ~/.vimrc
-|4,39,14,32,1677611727,"~/.vimrc"
--'  14  32  ~/.vimrc
-|4,39,14,32,1677611727,"~/.vimrc"
--'  14  32  ~/.vimrc
-|4,39,14,32,1677611727,"~/.vimrc"
--'  14  32  ~/.vimrc
-|4,39,14,32,1677611727,"~/.vimrc"
--'  14  32  ~/.vimrc
-|4,39,14,32,1677611727,"~/.vimrc"
--'  14  32  ~/.vimrc
-|4,39,14,32,1677611727,"~/.vimrc"
--'  15  28  ~/.vimrc
-|4,39,15,28,1677611716,"~/.vimrc"
--'  15  28  ~/.vimrc
-|4,39,15,28,1677611716,"~/.vimrc"
--'  15  28  ~/.vimrc
-|4,39,15,28,1677611716,"~/.vimrc"
--'  15  28  ~/.vimrc
-|4,39,15,28,1677611716,"~/.vimrc"
--'  15  28  ~/.vimrc
-|4,39,15,28,1677611716,"~/.vimrc"
--'  15  28  ~/.vimrc
-|4,39,15,28,1677611716,"~/.vimrc"
--'  15  28  ~/.vimrc
-|4,39,15,28,1677611716,"~/.vimrc"
--'  12  5  ~/.vimrc
-|4,39,12,5,1677611681,"~/.vimrc"
--'  12  5  ~/.vimrc
-|4,39,12,5,1677611681,"~/.vimrc"
--'  12  5  ~/.vimrc
-|4,39,12,5,1677611681,"~/.vimrc"
--'  12  5  ~/.vimrc
-|4,39,12,5,1677611681,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1677611665,"~/.vimrc"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
--'  1  16  ~/dotfiles/build.sh
-|4,39,1,16,1677611466,"~/dotfiles/build.sh"
+-'  46  27  ~/.vimrc
+|4,39,46,27,1677612033,"~/.vimrc"
+-'  50  27  ~/.vimrc
+|4,39,50,27,1677612033,"~/.vimrc"
+-'  46  27  ~/.vimrc
+|4,39,46,27,1677612033,"~/.vimrc"
 
 # History of marks within files (newest to oldest):
 
 > ~/.vimrc
-	*	1677612145	0
-	"	1	0
-	.	11	0
+	*	1677783366	0
+	"	45	27
+	.	15	0
 	+	10	8
 	+	11	4
 	+	12	4
 	+	13	4
 	+	14	4
 	+	15	4
-	+	16	4
-	+	17	8
-	+	47	0
-	+	42	0
+	+	16	8
+	+	46	0
+	+	41	0
 	+	9	0
 	+	11	0
+	+	15	0
+
+> ~/pharma_data_extract/main.py
+	*	1677783349	0
+	"	8	12
+	^	8	13
+	.	8	13
+	+	5	33
+	+	8	13
 
 > ~/dotfiles/build.sh
 	*	1677611465	0
