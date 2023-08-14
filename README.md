@@ -1,7 +1,7 @@
 # dotfiles
 ## How to build
 ``` shell
-yadm clone https://github.com/chndr1/dotfiles/
+yadm clone https://github.com/0xWOLAND/dotfiles/
 ```
 
 ## Dependencies:
